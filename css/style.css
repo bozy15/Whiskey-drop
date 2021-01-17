@@ -20,7 +20,19 @@ body {
     align-items: center;
     justify-content: center;
 
+    position: relative;
+
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 .quotes-container {
 
@@ -29,6 +41,21 @@ body {
 .features-container {
 
 }
+/* block divider */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #caa360;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 /* jumbotron */
 .jumbotron {
     background-color: transparent;
@@ -50,3 +77,28 @@ body {
         margin: 20px 0px;
         color: #a7a7a7;
 }
+
+/* Buttons */
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #ab503c;
+    border-color: #ab503c;
+}
+
+
+
