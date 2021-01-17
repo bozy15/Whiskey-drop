@@ -8,6 +8,18 @@ body {
 
 .callout-container {
     height: 100vh;
+
+        
+    background: url(../images/whiskey-bg.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .quotes-container {
@@ -16,4 +28,25 @@ body {
 
 .features-container {
 
+}
+/* jumbotron */
+.jumbotron {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    color: rgb(151, 146, 146);
+    font-style: italic;
+    font-size: 80%;
+}
+.jumbotron .lead {
+        margin: 20px 0px;
+        color: #a7a7a7;
 }
